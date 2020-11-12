@@ -1,0 +1,25 @@
+body{
+  margin: 5px;
+}
+div.mytarget {
+  background-color: lightgreen;
+}
+p.treeName {
+  background-color: aqua;
+}
+p.agestyle {
+  background-color: lightblue;
+}
+p.maxHigh {
+  background-color: lightgreen;
+}
+p.newMaxAgeStyle {
+  background-color: rebeccapurple;
+}
+.addTreeB {
+  border: 4px solid seagreen;
+  border-radius: 40px;
+}
+div.singlePost {
+  background-color: coral;
+}
