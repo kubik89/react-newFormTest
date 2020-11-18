@@ -72,8 +72,8 @@ class AllUsers extends Component {
                 {/*    users.map(value => (<OneUser*/}
                 {/*            user={value}*/}
                 {/*            key={value.id}*/}
-                {/*            getUserByID={this.getSomeUserById}*/}
-                {/*            currentPost={this.singlePost}*/}
+                {/*            // getUserByID={this.getSomeUserById}*/}
+                {/*            // currentPost={this.singlePost}*/}
                 {/*        />)*/}
                 {/*    )*/}
                 {/*}*/}
@@ -86,9 +86,6 @@ class AllUsers extends Component {
                         key={value.id}
                     />))
                 }
-                {/*{*/}
-                {/*    (<User1 someUser={someUser}/>)*/}
-                {/*}*/}
                 {
                     <Form12 getSomeUserByName={this.getSomeUserByName}/>
                 }

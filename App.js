@@ -14,13 +14,19 @@ import OneUser from "./component/oneUser/oneUser";
 import User1 from "./component/User1/user1";
 import AllUsers from "./component/allUsers/allUsers";
 import UserForformzDz from "./component/allUsers/userForformzDz";
+import MainPage from "./component/Main/main-page";
+import AllUs from "./component/AllUs/AllUs";
+import AboutUseMemo from "./component/UseMemo/AboutUseMemo";
 
 
 function App() {
 
     return (
         <div>
-            <AllUsers/>
+            {/*<AboutUseMemo/>*/}
+            <MainPage/>
+            {/*<AllUs/>*/}
+            {/*<AllUsers/>*/}
             {/*<AllComments/>*/}
             {/*<AllPosts/>*/}
             {/*<Users/>*/}
